@@ -27,7 +27,7 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Romeo-musicBot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "stetchfy")
 
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", None).split())
@@ -39,16 +39,16 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/RRomeo-RJ/Romeo-musicBot",
+    "https://github.com/sstetch/stetchmusicbot",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/ROMEO_OP")
+    "SUPPORT_CHANNEL", "https://t.me/its_stetch")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/ROMEOBOT_OP")
+    "SUPPORT_GROUP", "https://t.me/TXNX5")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
